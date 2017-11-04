@@ -26,6 +26,15 @@ class TodoModel: NSObject {
     
     
     
+   init(id:String, image:String) {
+        self.id = id;
+        self.image = image;
+        self.title = "dd";
+    self.date = NSDate();
+    
+    }
+    
+    
     
     
 
